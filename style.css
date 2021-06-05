@@ -1,0 +1,129 @@
+*, body{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #4e1766;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-menu{
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 20px #d4d4d4;
+
+    width: 70px;
+    height: 100vh;
+
+    position: fixed;
+    top:0;
+    left:0;
+    
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+    transition: .3s ease;
+}
+
+.main-menu:hover{
+    width : 250px;
+    overflow-y: scroll;
+}
+
+.main-menu .menu-item{
+    padding: 10px;
+}
+.main-menu .menu-item:hover{
+    background-color: #60afbf;
+    cursor: pointer;
+}
+
+.main-menu .menu-item .fa{
+    color: #60afbf;
+    width:40px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.main-menu .menu-item:hover > .fa{
+    color: #1d0daa;
+}
+
+/*section.home{
+    background-color: #f3f3f3;
+}*/
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #bbbbbb;
+    border-radius: 10px;
+  }
+
+{ /*, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebebeb;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100vh;
+
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0px 0px 20px #d4d4d4;
+    transition: 3s ease;
+}
+
+.main-menu:hover{
+    width: 270px;
+    ov 
+}
+
+.main-menu .main-item{
+    padding: 10px;
+}
+
+.main-menu .main-item:hover{
+    background-color: #d6d6d6;
+    cursor: pointer;
+}
+
+.main-menu .main-item .fa{
+    font-size: 5px;
+    width: 50px;
+    padding: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent !important;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bbbbbb;
+    border-radius: 10px;
+}*/}
